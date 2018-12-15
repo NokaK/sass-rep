@@ -1,0 +1,38 @@
+@import 'reset';
+@import 'variable';
+@import 'privateelements';
+
+
+header{
+    @extend %padding-30 ;  
+    .logo  {
+        img {
+          width:$size-01;  
+        }
+    }
+    nav {
+        ul{
+            @extend %flex-element; 
+            li {
+                margin-left: 20px;
+                a{
+                    color: $color01;
+                    font-size: $font03;
+                }
+                
+            }
+        }
+       
+    }
+
+}
+.container {
+    @extend %container;    
+}
+.flex{
+    @extend %flex-element;
+}
+.section {
+    background:$color03; 
+    @extend %padding-30 ;
+}
