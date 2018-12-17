@@ -2,6 +2,9 @@
 @import 'variable';
 @import 'privateelements';
 
+body{
+    box-sizing: border-box;
+}
 
 header{
     @extend %padding-30 ;  
